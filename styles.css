@@ -1,3 +1,4 @@
+@import url(https://use.fontawesome.com/releases/v6.4.2/css/all.css);
 * {
     padding: 0;
     margin: 0;
@@ -5,15 +6,15 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    background-color: #ffffff;
+    background-color: #000000e6;
+    color: #ffffff;
 }
 nav {
-    background-color: #ffffff;
     position: fixed;
     top: 0%;
     left: 0%;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 5%;
     border-bottom: 1px solid grey;
     display: flex;
     justify-content: space-between;
@@ -22,7 +23,7 @@ nav {
 nav div.profile-photo {
     width: 50px;
     height: 50px;
-    border: 1px solid grey;
+    border: 1px solid bisque;
     border-radius: 50%;
 }
 ul.nav-links {
@@ -33,9 +34,19 @@ ul.nav-links {
     gap: 2rem;
 }
 ul.nav-links li a {
-    color: black;
+    color:#ffffff;
     text-decoration: none;
     font-weight: 500;
+    text-decoration: none;
+}
+ul.nav-links li a:hover{
+    color: #4285f4;
+    text-decoration:underline;
+    text-decoration-color: #4285f4;
+    text-underline-offset: 1rem;
+}
+img {
+    width: calc(35% + 100px);
 }
 
 /* Home Page */
@@ -67,6 +78,52 @@ div.description {
     justify-content: space-between;
     gap: 16px;
 }
+div.description h2 span img {
+    width: 180px;
+}
+div.description h2 span {
+    font-size: 2.5rem;
+}
+button{
+    padding: 15px 25px;
+    border-radius: 40px;
+    background: #4285f4;
+    border-color: transparent;
+    box-shadow: 1px 5px 10px 1px #ffa500;
+    color: #ffffff;
+}
+button:hover {
+    box-shadow: 2px 7px 12px 2px #ff4500;
+    color: #ff4500;
+}
+/*Social media icons*/
+/*
+div.social-media-icons a {
+    margin: 0 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #ffffff;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0);
+    color: var(--color);
+    font-size: 2.5em;
+    -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+}
+div.social-media-icons a:hover {
+    background: var(--color);
+    color: #050801;
+    box-shadow: 0 0 5px var(--color),
+      0 0 25px var(--color),
+      0 0 50px var(--color),
+      0 0 200px var(--color);
+}
+*/
 
 /* Showcasing projects*/
 div.showcase {
