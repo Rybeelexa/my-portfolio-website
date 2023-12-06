@@ -83,6 +83,9 @@ div.description h1 {
     color: #4285f4;
     font-size: 2.5rem;
 }
+p.intro {
+    line-height: 1px;
+}
 div.description h1 span {
     color: #ffffff;
 }
@@ -91,6 +94,7 @@ div.description h2 span img {
 }
 div.description h2 span {
     font-size: 2.5rem;
+    word-spacing: 8px;
 }
 button{
     padding: 15px 25px;
@@ -99,13 +103,16 @@ button{
     border-color: transparent;
     box-shadow: 1px 5px 10px 1px #ffa500;
     color: #ffffff;
+    margin-bottom: 20px;
 }
 button:hover {
     box-shadow: 2px 7px 12px 2px #ff4500;
     color: #ff4500;
 }
 /*Social media icons*/
-/*
+div.social-media-icons {
+    display: flex;
+}
 div.social-media-icons a {
     margin: 0 10px;
     border-radius: 50%;
@@ -131,7 +138,6 @@ div.social-media-icons a:hover {
       0 0 50px var(--color),
       0 0 200px var(--color);
 }
-*/
 
 /* Showcasing projects*/
 div.showcase {
