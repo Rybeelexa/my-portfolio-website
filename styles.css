@@ -15,7 +15,7 @@ nav {
     left: 0%;
     width: 100%;
     padding: 20px 5%;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +50,7 @@ img {
 }
 
 /* Home Page */
-div.home {
+section.home-page {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -59,7 +59,7 @@ div.home {
     gap: 32px;
 }
 
-div.home > div.profile-photo {
+section.home-page > div.profile-photo {
     width: 200px;
     height: 200px;
     border: 1px solid black;
@@ -72,11 +72,19 @@ h2 {
 h2 h1 {
     text-align: center;
 }
+
 div.description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 16px;
+}
+div.description h1 {
+    color: #4285f4;
+    font-size: 2.5rem;
+}
+div.description h1 span {
+    color: #ffffff;
 }
 div.description h2 span img {
     width: 180px;
@@ -137,3 +145,25 @@ div.showcase {
     border: 1px solid black;
 
 }
+
+/*Services section*/
+section.services,
+section.about {
+    background-color: #ffffff;
+    color: #000000;
+}
+.services.container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid wheat;
+    background: black;
+    border-radius: 30px;
+}
+.services-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: calc(5% + 8px);
+}
+/*About Section*/
+/*Contact Section*/
