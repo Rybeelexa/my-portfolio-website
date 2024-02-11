@@ -5,10 +5,4 @@
     #hamburger-nav {
         display: flex;
     }
-    nav.hamburger-nav {
-        display: flex;
-    }
-    .hamburger-menu {
-        float: right;
-    }
 }
