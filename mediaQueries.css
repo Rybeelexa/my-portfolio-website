@@ -1,0 +1,14 @@
+@media screen and (max-width: 1200px) {
+    .header {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    nav.hamburger-nav {
+        display: flex;
+    }
+    .hamburger-menu {
+        float: right;
+    }
+}
